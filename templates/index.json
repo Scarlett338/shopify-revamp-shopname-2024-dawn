@@ -9,7 +9,7 @@
             "image": "shopify:\/\/shop_images\/Berry-01.svg",
             "title": "",
             "text": "",
-            "link_label": "asd",
+            "link_label": "Fresh made",
             "link": "shopify:\/\/collections\/all"
           }
         },
@@ -40,10 +40,10 @@
         "column_rbBRBQ"
       ],
       "custom_css": [
-        "a{font-size: 50px; text-align:center; background-color: #red; }"
+        "a {font-size: 50px; text-align: center; background-color: #red;}"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
