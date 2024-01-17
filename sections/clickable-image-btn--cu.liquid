@@ -5,12 +5,14 @@
   class="cu-clickable-image-container"
 >
   <div clas="page-width">
-    <div class="cu-clickable-image-cards">
-      <a href="">
-        <img src="" alt="">
-      </a>
-      <p></p>
-    </div>
+    {% if section.settings['image-1'] != blank %}
+      <div class="cu-clickable-image-card">
+        <a href="">
+          <img src="{{ section.settings.image-1 }} | img_url:'master' " alt="">
+        </a>
+        <p></p>
+      </div>
+    {% endif %}
   </div>
 </div>
 
