@@ -41,7 +41,7 @@
       ],
       "custom_css": [
         "a {font-size: 50px; text-align: center; background-color: #red;}",
-        ".multicolumn-card__info {background: no-repeat center center; background-color: #red;}"
+        ".multicolumn-card__info {background: no-repeat center center; background-color: red;}"
       ],
       "settings": {
         "title": "",
