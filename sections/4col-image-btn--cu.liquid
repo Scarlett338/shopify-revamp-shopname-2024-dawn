@@ -1,8 +1,131 @@
+<div
+  {% if section.settings.css_id != blank %}
+    id="{{ section.settings.css_id }}"
+  {% endif %}
+  class="cu-btnImg-container {% if section.settings.css_classes != blank %} {{ section.settings.css_classes }}{% endif %}"
+>
+  {% if section.settings.btnImg1 != blank %}
+    <div class="cu-btnImg-col cu-btnImg1-col">
+      <a href="{{ section.settings.btnImg1_url }}">
+        <img src="{{ section.settings.btnImg1 | img_url: 'master' }}" alt="{{ section.settings.btnImg1.alt }}"/>
+      </a>
+      <p>{{ section.settings.btnImg1_text }}</p>
+    </div>
+  {% endif %}
+
+  {% if section.settings.btnImg2 != blank %}
+    <div class="cu-btnImg-col cu-btnImg2-col">
+      <a href="{{ section.settings.btnImg2_url }}">
+        <img src="{{ section.settings.btnImg2 | img_url: 'master' }}" alt="{{ section.settings.btnImg2.alt }}"/>
+      </a>
+      <p>{{ section.settings.btnImg2_text }}</p>
+    </div>
+  {% endif %}
+
+  {% if section.settings.btnImg3 != blank %}
+    <div class="cu-btnImg-col cu-btnImg3-col">
+      <a href="{{ section.settings.btnImg3_url }}">
+        <img src="{{ section.settings.btnImg3 | img_url: 'master' }}" alt="{{ section.settings.btnImg3.alt }}"/>
+      </a>
+      <p>{{ section.settings.btnImg3_text }}</p>
+    </div>
+  {% endif %}
+
+    {% if section.settings.btnImg4 != blank %}
+    <div class="cu-btnImg-col cu-btnImg4-col">
+      <a href="{{ section.settings.btnImg4_url }}">
+        <img src="{{ section.settings.btnImg4 | img_url: 'master' }}" alt="{{ section.settings.btnImg4.alt }}"/>
+      </a>
+      <p>{{ section.settings.btnImg4_text }}</p>
+    </div>
+  {% endif %}
+</div>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "4Col Image Buttons (CU)",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "css_id",
+      "label": "CSS Id"
+    },
+    {
+      "type": "text",
+      "id": "css_classes",
+      "label": "CSS Classes (separate classes with space)"
+    },
+    {
+      "type": "image_picker",
+      "id": "btnImg1",
+      "label": "Button image 1"
+    },
+    {
+        "type": "url",
+        "id": "btnImg1_url",
+        "label": "Button image 1 Link"
+    },
+    {
+      "type": "text",
+      "id": "btnImg1_text",
+      "label": "Button image 1 text"
+    },
+    {
+      "type": "image_picker",
+      "id": "btnImg2",
+      "label": "Button image 2"
+    },
+    {
+        "type": "url",
+        "id": "btnImg2_url",
+        "label": "Button image 2 Link"
+    },
+    {
+      "type": "text",
+      "id": "btnImg2_text",
+      "label": "Button image 2 text"
+    },
+    {
+      "type": "image_picker",
+      "id": "btnImg3",
+      "label": "Button image 3"
+    },
+    {
+        "type": "url",
+        "id": "btnImg3_url",
+        "label": "Button image 3 Link"
+    },
+    {
+      "type": "text",
+      "id": "btnImg3_text",
+      "label": "Button image 3 text"
+    },
+        {
+      "type": "image_picker",
+      "id": "btnImg4",
+      "label": "Button image 4"
+    },
+    {
+        "type": "url",
+        "id": "btnImg4_url",
+        "label": "Button image 4 Link"
+    },
+    {
+      "type": "text",
+      "id": "btnImg4_text",
+      "label": "Button image 4 text"
+    }
+
+
+  ],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "4Col Image Buttons (CU)"
+    }
+  ]
+}
 {% endschema %}
 
 {% stylesheet %}
