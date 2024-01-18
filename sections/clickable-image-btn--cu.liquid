@@ -10,9 +10,9 @@
     {% for block in section.blocks %}
       <div class="cu-clickable-image-card {{ block.id }}">
         <a class="cu-clickable-link" href="{{ block.settings.image_url }}">
-      <img src="{{ block.settings.image }}" width:"100px" />   
-      {{ block.settings.image | image_url: 'master' | image_tag }}
-      <p>{{ block.settings.image_link_label }}</p>
+          <img src="{{ block.settings.image }}" width="100" height="auto" alt="">
+          {{ block.settings.image | image_url: 'master' | image_tag }}
+          <p>{{ block.settings.image_link_label }}</p>
         </a>
       </div>
     {% endfor %}
