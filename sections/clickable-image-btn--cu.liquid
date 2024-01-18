@@ -8,13 +8,17 @@
 >
   <div clas="page_width">
     {% for block in section.blocks %}
-      <div class="cu-clickable-image-card {{ block.id }}">
-        <a class="cu-clickable-link" href="{{ block.settings.image_url }}">
-          <img src="{{ block.settings.image }}" width="100" height="auto" alt="">
-          {{ block.settings.image | image_url: 'master' | image_tag }}
-          <p>{{ block.settings.image_link_label }}</p>
-        </a>
-      </div>
+      {% if block.settings.image != blank %}
+        <div class="cu-clickable-image-card {{ block.id }}">
+          {% if block.settings.image_url != blank %}
+            <a class="cu-clickable-link" href="{{ block.settings.image_url }}">
+              <img src="{{ block.settings.image }}" width="100" height="auto" alt="">
+              {{ block.settings.image | image_url: 'master' | image_tag }}
+              <p>{{ block.settings.image_link_label }}</p>
+            </a>
+          {% endif %}
+        </div>
+      {% endif %}
     {% endfor %}
   </div>
 </div>
