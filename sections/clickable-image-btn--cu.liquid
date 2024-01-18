@@ -15,13 +15,8 @@
             href="{{ block.settings.image_url }}"
           >
             {% if block.settings.image != blank %}
-              <img
-                src="{{ block.settings.image }}"
-                width="200"
-                height="200"
-                alt=""
-
-              ></a>
+              {{ block.settings.image | image_url: width: 2048 | image_tag }}
+              </a>
             {% endif %}
             <a>
               {% if block.settings.image_text != blank %}
