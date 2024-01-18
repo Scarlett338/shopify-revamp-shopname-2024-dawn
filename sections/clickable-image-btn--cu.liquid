@@ -20,7 +20,7 @@
             {% endif %}
             <a>
               {% if block.settings.image_text != blank %}
-                <p>{{ block.settings.image_link_label }}</p>
+                {{- block.settings.link_label | escape -}}
               {% endif %}
             </a>
         {% endif %}
