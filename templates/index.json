@@ -14,8 +14,9 @@
         "card_mCzMKw": {
           "type": "card",
           "settings": {
-            "image_link_label": "",
-            "image_url": ""
+            "image": "shopify:\/\/shop_images\/chocolate_1-01.svg",
+            "image_link_label": "T2",
+            "image_url": "shopify:\/\/collections"
           }
         }
       },
