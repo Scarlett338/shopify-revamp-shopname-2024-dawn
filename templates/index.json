@@ -1,5 +1,22 @@
 {
   "sections": {
+    "clickable_image_btn_cu_tppaDz": {
+      "type": "clickable-image-btn--cu",
+      "settings": {
+        "css_id": "",
+        "css_classes": "",
+        "num_of_column": "",
+        "image_1": "shopify:\/\/shop_images\/Berry-01.svg",
+        "image_url_1": "shopify:\/\/pages\/staff-a",
+        "image_text_1": "123123",
+        "image_url_2": "",
+        "image_text_2": "",
+        "image_url_3": "",
+        "image_text_3": "",
+        "image_url_4": "",
+        "image_text_4": ""
+      }
+    },
     "multicolumn_yWNdam": {
       "type": "multicolumn",
       "blocks": {
@@ -170,29 +187,13 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
-    },
-    "clickable_image_btn_cu_tppaDz": {
-      "type": "clickable-image-btn--cu",
-      "settings": {
-        "css_id": "",
-        "css_classes": "",
-        "num_of_column": "",
-        "image-url-1": "",
-        "image-text-1": "",
-        "image-url-2": "",
-        "image-text-2": "",
-        "image-url-3": "",
-        "image-text-3": "",
-        "image-url-4": "",
-        "image-text-4": ""
-      }
     }
   },
   "order": [
+    "clickable_image_btn_cu_tppaDz",
     "multicolumn_yWNdam",
     "c7877f91-7de7-4579-b303-cb5684a50e23",
     "image_banner",
-    "featured_collection",
-    "clickable_image_btn_cu_tppaDz"
+    "featured_collection"
   ]
 }
