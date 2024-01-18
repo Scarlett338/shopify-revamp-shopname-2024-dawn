@@ -7,13 +7,21 @@
           "type": "card",
           "settings": {
             "image": "shopify:\/\/shop_images\/Berry-01.svg",
-            "image_link_label": "123",
+            "image_link_label": "T1",
             "image_url": "shopify:\/\/collections\/all"
+          }
+        },
+        "card_mCzMKw": {
+          "type": "card",
+          "settings": {
+            "image_link_label": "",
+            "image_url": ""
           }
         }
       },
       "block_order": [
-        "card_mGqhVp"
+        "card_mGqhVp",
+        "card_mCzMKw"
       ],
       "settings": {
         "css_id": "",
