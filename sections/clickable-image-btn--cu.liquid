@@ -12,7 +12,7 @@
         <a class="cu-clickable-link" href="{{ block.settings.image_url }}">
       <img src="{{ block.settings.image }}" width:"100px" />   
       {{ block.settings.image | image_url: 'master' | image_tag }}
-      {{ block }}
+      <p>{{ block.settings.image_link_label }}</p>
         </a>
       </div>
     {% endfor %}
