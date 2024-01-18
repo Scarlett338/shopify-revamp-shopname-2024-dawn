@@ -9,26 +9,24 @@
   <div clas="page_width">
     {% for block in section.blocks %}
       <div class="cu-clickable-image-card" {{ block.shopify_attributes }}>
-        {% if block.settings.image != blank %}
-          <a
-            class="cu-clickable-link"
-            {% if block.settings.image_url != blank %}
-              href="{{ block.settings.image_url }}"
+        <a
+          class="cu-clickable-link"
+          {% if block.settings.image_url != blank %}
+            href="{{ block.settings.image_url }}"
+          {% endif %}
+        >
+          <img
+            {% if block.settings.image != blank %}
+              src="{{ block.settings.image }}"
             {% endif %}
+            width="100"
+            height="100"
+            alt=""
           >
-            <img
-              {% if block.settings.image != blank %}
-                src="{{ block.settings.image }}"
-              {% endif %}
-              width="100"
-              height="100"
-              alt=""
-            >
-            {% if block.settings.image_text != blank %}
-              <p>{{ block.settings.image_link_label }}</p>
-            {% endif %}
-          </a>
-        {% endif %}
+          {% if block.settings.image_text != blank %}
+            <p>{{ block.settings.image_link_label }}</p>
+          {% endif %}
+        </a>
       </div>
     {% endfor %}
   </div>
