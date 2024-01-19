@@ -43,7 +43,7 @@
         "card_td6ATV"
       ],
       "custom_css": [
-        ".cu-clickable-link-2 {text-decoration: none;}",
+        ".cu-clickable-link {text-decoration: none;}",
         ".cu-image-without-link {cursor: unset;}"
       ],
       "settings": {
