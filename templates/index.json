@@ -18,14 +18,24 @@
             "image_link_label": "T2",
             "image_url": "shopify:\/\/collections"
           }
+        },
+        "card_VBNxTc": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/chocolate_1-01.svg",
+            "image_link_label": "",
+            "image_url": ""
+          }
         }
       },
       "block_order": [
         "card_mGqhVp",
-        "card_mCzMKw"
+        "card_mCzMKw",
+        "card_VBNxTc"
       ],
       "custom_css": [
-        ".cu-clickable-link-2 {text-decoration: none;}"
+        ".cu-clickable-link-2 {text-decoration: none;}",
+        ".cu-image-without-link{cursor:unset;}"
       ],
       "settings": {
         "css_id": "",
