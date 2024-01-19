@@ -24,6 +24,9 @@
         "card_mGqhVp",
         "card_mCzMKw"
       ],
+      "custom_css": [
+        ".cu-clickable-link-2 {text-decoration: none;}"
+      ],
       "settings": {
         "css_id": "",
         "css_classes": ""
