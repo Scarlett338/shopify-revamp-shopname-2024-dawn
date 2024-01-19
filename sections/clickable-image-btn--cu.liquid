@@ -11,10 +11,9 @@
       <div class="cu-clickable-image-card" {{ block.shopify_attributes }}>
         {% if block.settings.image != blank %}
           <a
-            class="cu-clickable-link"
             {% if block.settings.image_url == blank %}
-              role="link" aria-disabled="true"
               class="cu-image-without-link"
+              role="link" aria-disabled="true"
             {% else %}
               class="cu-clickable-link"
               href="{{ block.settings.image_url }}"
