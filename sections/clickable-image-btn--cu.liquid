@@ -14,7 +14,9 @@
             class="cu-clickable-link"
             {% if block.settings.image_url == blank %}
               role="link" aria-disabled="true"
+              class="cu-image-without-link"
             {% else %}
+              class="cu-clickable-link"
               href="{{ block.settings.image_url }}"
             {% endif %}
           >
