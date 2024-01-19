@@ -7,7 +7,7 @@
           "type": "card",
           "settings": {
             "image": "shopify:\/\/shop_images\/Berry-01.svg",
-            "image_link_label": "T1",
+            "image_link_label": "ss",
             "image_url": "shopify:\/\/collections\/all"
           }
         },
@@ -15,7 +15,7 @@
           "type": "card",
           "settings": {
             "image": "shopify:\/\/shop_images\/chocolate_1-01.svg",
-            "image_link_label": "T2",
+            "image_link_label": "asd",
             "image_url": "shopify:\/\/collections"
           }
         },
@@ -26,12 +26,21 @@
             "image_link_label": "",
             "image_url": ""
           }
+        },
+        "card_td6ATV": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Berry-01.svg",
+            "image_link_label": "asd",
+            "image_url": "shopify:\/\/pages\/staff-a"
+          }
         }
       },
       "block_order": [
         "card_mGqhVp",
         "card_mCzMKw",
-        "card_VBNxTc"
+        "card_VBNxTc",
+        "card_td6ATV"
       ],
       "custom_css": [
         ".cu-clickable-link-2 {text-decoration: none;}",
