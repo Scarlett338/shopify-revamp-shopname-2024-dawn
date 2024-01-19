@@ -35,7 +35,7 @@
       ],
       "custom_css": [
         ".cu-clickable-link-2 {text-decoration: none;}",
-        ".cu-image-without-link{cursor:unset;}"
+        ".cu-image-without-link {cursor: cell;}"
       ],
       "settings": {
         "css_id": "",
