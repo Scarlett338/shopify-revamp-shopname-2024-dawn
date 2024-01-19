@@ -44,7 +44,8 @@
       ],
       "custom_css": [
         ".cu-clickable-link {text-decoration: none;}",
-        ".cu-image-without-link {cursor: unset;}"
+        ".cu-image-without-link {cursor: unset;}",
+        ".cu-clickable-image-container {display: flex; justify-content: center; align-items:center;}"
       ],
       "settings": {
         "css_id": "",
