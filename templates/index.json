@@ -45,7 +45,6 @@
       "custom_css": [
         ".cu-clickable-link {text-decoration: none;}",
         ".cu-image-without-link {cursor: unset;}",
-        ".cu-con {max-width: 1100px; width: 100%;}",
         ".cu-clickable-image-container {display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;}",
         ".cu-clickable-image-card {display: flex; justify-content: center; align-items: center; flex-direction: column; margin: 10px;}"
       ],
