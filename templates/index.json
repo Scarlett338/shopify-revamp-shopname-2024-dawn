@@ -1,5 +1,50 @@
 {
   "sections": {
+    "multicolumn_QCBGry": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_ctfcWt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Fresh meal box",
+            "link": "shopify:\/\/pages\/staff-a"
+          }
+        },
+        "column_FqBG4C": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Ready to eat protein",
+            "link": "shopify:\/\/pages\/staff-a"
+          }
+        }
+      },
+      "block_order": [
+        "column_ctfcWt",
+        "column_FqBG4C"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "clickable_image_btn_cu_tppaDz": {
       "type": "clickable-image-btn--cu",
       "blocks": {
@@ -226,6 +271,7 @@
     }
   },
   "order": [
+    "multicolumn_QCBGry",
     "clickable_image_btn_cu_tppaDz",
     "multicolumn_yWNdam",
     "c7877f91-7de7-4579-b303-cb5684a50e23",
