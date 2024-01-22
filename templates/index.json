@@ -31,8 +31,10 @@
       "custom_css": [
         ".multicolumn {background-color: #f6f6f6;}",
         ".multicolumn-card__info {text-align: center; font-size: 30px;}",
-        ".multicolumn-card__info a {background-color: #d85d22; color: #fff; font-weight: bold; padding: 2px 10px;}",
-        ".icon-wrap {display: none;}"
+        ".icon-wrap {display: none;}",
+        ".multicolumn-card__info:after, .multicolumn-card__info:before {left: 50%; bottom: 100%;}",
+        ".multicolumn-card__info:after {border-color: transparent transparent #f4f4f4 transparent ; margin-left: -4px;}",
+        ".multicolumn-card__info:before {border-color: transparent transparent #1fb4ab transparent ; margin-left: -8px;}"
       ],
       "settings": {
         "title": "",
