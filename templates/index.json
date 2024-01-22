@@ -28,6 +28,12 @@
         "column_ctfcWt",
         "column_FqBG4C"
       ],
+      "custom_css": [
+        ".multicolumn{background-color: #f6f6f6;}",
+        ".multicolumn-card__info{text-align: center; font-size: 30px;}",
+        ".multicolumn-card__info a{color:#d85d22;}",
+        ".icon-wrap{display: none;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -38,7 +44,7 @@
         "background_style": "primary",
         "button_label": "Button label",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
