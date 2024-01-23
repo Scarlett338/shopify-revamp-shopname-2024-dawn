@@ -1,5 +1,54 @@
 {
   "sections": {
+    "custom_columns_img_link_cu_z8Rbir": {
+      "type": "custom-columns-img-link--cu",
+      "blocks": {
+        "column_yW4WDN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/btn1.png",
+            "img_alt": "Button Image 1",
+            "column_url": "shopify:\/\/pages\/staff-a",
+            "url_open_tab": "1",
+            "img_text": "Fresh Meal Box",
+            "img_text_apply_style": "1"
+          }
+        },
+        "column_PnEfCe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/btn2.png",
+            "img_alt": "Button Image 2",
+            "column_url": "shopify:\/\/pages\/team-list",
+            "url_open_tab": "1",
+            "img_text": "Ready to eat protein",
+            "img_text_apply_style": "1"
+          }
+        },
+        "column_Vi4PUa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/btn3.png",
+            "img_alt": "Button Image 3",
+            "column_url": "",
+            "url_open_tab": "1",
+            "img_text": "Payme $1000 now",
+            "img_text_apply_style": "1"
+          }
+        }
+      },
+      "block_order": [
+        "column_yW4WDN",
+        "column_PnEfCe",
+        "column_Vi4PUa"
+      ],
+      "settings": {
+        "css_id": "",
+        "css_classes": "",
+        "section_title": "",
+        "section_title_position": "cu-text-center"
+      }
+    },
     "multicolumn_QCBGry": {
       "type": "multicolumn",
       "blocks": {
@@ -32,9 +81,9 @@
         ".multicolumn {background-color: #f6f6f6;}",
         ".multicolumn-card__info {text-align: center; font-size: 30px;}",
         ".icon-wrap {display: none;}",
-        ".multicolumn-card__info:after, .multicolumn-card__info:before {left: 50%; bottom: 100%;}",
-        ".multicolumn-card__info:after {border-color: transparent transparent #f4f4f4 transparent ; margin-left: -4px;}",
-        ".multicolumn-card__info:before {border-color: transparent transparent #1fb4ab transparent ; margin-left: -8px;}"
+        ".multicolumn-card__info:after,.multicolumn-card__info:before {left: 50%; bottom: 100%;}",
+        ".multicolumn-card__info:after {border-color: transparent transparent #f4f4f4 transparent; margin-left: -4px;}",
+        ".multicolumn-card__info:before {border-color: transparent transparent #1fb4ab transparent; margin-left: -8px;}"
       ],
       "settings": {
         "title": "",
@@ -279,6 +328,7 @@
     }
   },
   "order": [
+    "custom_columns_img_link_cu_z8Rbir",
     "multicolumn_QCBGry",
     "clickable_image_btn_cu_tppaDz",
     "multicolumn_yWNdam",
