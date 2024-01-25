@@ -15,11 +15,10 @@
 
 /*************** CUSTOM COLUMNS IMG LINK - SECTION ****************/
 
-.cu-custom-columns-container img:hover {
+.cu-custom-columns-container img:hover,.cu-img-text-div:hover {
   scale: 1.08!important;
   transition: 0.4s ease-in-out!important;
 }
-
 
 .cu-custom-columns-container .cu-custom-columns-section-title {
     padding-left: 1em;
